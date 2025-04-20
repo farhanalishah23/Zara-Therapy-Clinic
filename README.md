@@ -22,5 +22,5 @@ A modern, responsive website for a Therapy Clinic built to provide information a
 Clone the repo:
 
 ```bash
-git clone https://github.com/your-username/therapy-clinic.git
-cd therapy-clinic
+https://github.com/farhanalishah23/Zara-Therapy-Clinic.git
+cd Zara-Therapy-Clinic
