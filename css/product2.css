@@ -1,0 +1,75 @@
+html{
+    overflow-x: hidden;
+}
+body {
+    background-color: #e8f5e9;
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Container for Products Section */
+.products-container {
+    background-color: #fff;
+    padding: 40px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2.text-center {
+    font-size: 2rem;
+    color: #2d6a4f;
+    margin-bottom: 40px;
+}
+
+/* Styling for Cards */
+.product-card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-card img {
+    border-radius: 8px 8px 0 0;
+    object-fit: cover;
+}
+
+.product-card h5 {
+    font-size: 1.25rem;
+    color: #2d6a4f;
+    margin: 20px 0;
+}
+
+.product-card p {
+    font-size: 1rem;
+    color: #555;
+    padding-bottom: 20px;
+}
+
+  /* Footer Styling */
+footer {
+    background-color: #2d6a4f;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+  .footer-about,
+  .footer-links,
+  .footer-contact {
+    width: 30%;
+  }
+
+  .social-icons img {
+    width: 30px;
+    margin-right: 10px;
+  }

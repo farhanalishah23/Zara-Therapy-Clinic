@@ -1,0 +1,73 @@
+.about-page {
+  background-size: cover;
+  background-position: center;
+  
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  position: relative;
+}
+
+.about-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: 1;
+}
+
+.about-page .container {
+  position: relative;
+  z-index: 2;
+}
+
+.about-page h2,
+.about-page p {
+  color: #fff;
+}
+.team-preview {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* This gives fixed bg effect */
+  position: relative;
+  min-height: 100vh;
+}
+
+.team-preview .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* dark overlay */
+  z-index: 1;
+}
+
+.team-preview .container {
+  position: relative;
+  z-index: 2;
+}
+
+.team-preview h3,
+.team-preview p,
+.team-preview h5 {
+  color: #fff;
+}
+
+.team-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.mission-vision {
+    background: linear-gradient(to right, #ccfbf1, #dbeafe) !important;
+} 
+.values{
+    background: linear-gradient(to right, #4bffd8, #dbeafe) !important;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact - Zara Theraphy Clinic</title>
+      <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/contact.css">
+      <link rel="shortcut icon" href="pics/logo.jpg" type="image/x-icon">
+    
+    </head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container">
+            <a class="navbar-brand web-logo" href="#">Zara Therapy Clinic</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="product.html">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html">Services</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      
+    
+      <!-- Hero -->
+      <section class="hero">
+        <h2>Contact Us</h2>
+        <p>Contact us now for your</p>
+        <a href="contact.html" class="btn">Contact Now</a>
+      </section>
+
+
+      <div class="contact-container container">
+        <h2>Contact Zara Therapy Clinic</h2>
+    
+        <!-- Contact Form -->
+        <form id="contactForm" novalidate>
+          <label for="name">Full Name <span class="text-danger">*</span></label>
+          <input type="text" id="name" name="name" required />
+          <div class="error" id="nameError">Please enter your name.</div>
+    
+          <label for="email">Email Address <span class="text-danger">*</span></label>
+          <input type="email" id="email" name="email" required />
+          <div class="error" id="emailError">Please enter a valid email.</div>
+    
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" />
+    
+          <label for="subject">Subject <span class="text-danger">*</span></label>
+          <input type="text" id="subject" name="subject" required />
+          <div class="error" id="subjectError">Please enter a subject.</div>
+    
+          <label for="message">Your Message <span class="text-danger">*</span></label>
+          <textarea id="message" name="message" required></textarea>
+          <div class="error" id="messageError">Please enter your message.</div>
+    
+          <button type="submit">Send Message</button>
+        </form>
+    
+        <!-- Map Section -->
+        <h3>Find Us Here</h3>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019659148359!2d-122.41941548468194!3d37.77492977975924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808f1e9c7053%3A0x7f0f0c0e94a58d50!2sTherapy%20Clinic!5e0!3m2!1sen!2sus!4v1616728835177!5m2!1sen!2sus"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-about">
+            <h3>About Us</h3>
+            <p>We offer modern solutions to grow your business online and offline.</p>
+          </div>
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="/about">About</a></li>
+              <li><a href="/services">Services</a></li>
+              <li><a href="/blog">Blog</a></li>
+              <li><a href="/contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>Email: Healingminds@gmail.com</p>
+            <p>Phone: +123 456 7890</p>
+            <div class="social-icons">
+              <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcZxC4F3pf5aWgQCUUQx9YdU2lCtzWi1x2fA&s" alt="Facebook"></a>
+              <a href="#"><img src="https://logos-world.net/wp-content/uploads/2020/04/Twitter-Emblem.png" alt="Twitter"></a>
+              <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuH7c5cLpGehi0b4iQk90fXUzC9p7Ebla13w&s" alt="Instagram"></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+         
+        </div>
+      </footer>
+      <footer>
+        <p>&copy; 2025 Healing Minds Therapy. All rights reserved.</p>
+      </footer>
+      <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+      <script src="js/contact.js"></script>
+</body>
+</html>
